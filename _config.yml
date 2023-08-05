@@ -2,9 +2,9 @@ name:                Jack Munro
 title:               synackjack
 twitter:             synackjack
 # domain:              synackjack.co.uk
-url:                 http://127.0.0.1:4000
+url:                 https://ccccbcetvvtifcljufhgbvbrccictrluuc/cccccbcetvvtifcljufhgbvbrccictrluuc.github.io
 include:             ['_pages']
-metadescription:     "Slash Packaging is a directory of businesses that offer packaging sustainability information on their website at the URL /packaging"
+metadescription:     "A blog by someone who doesn't know how to blog. It's literally just for things I think are cool..."
 
 # You may need to change the base URL depending on your deploy configuration.
 # Specifically, when using GitHub Pages, the baseurl should point to where GitHub
