@@ -8,17 +8,17 @@
 ::-moz-selection {
   background: var(--color-selection);
 }
-
+@font-face {
+  font-family: 'Fira';
+  src:  url('/assets/firacode-variablefont_wght-webfont.woff') format('woff'),
+        url('/assets/firacode-variablefont_wght-webfont.woff2') format('woff2');
+}
 html {
   box-sizing: border-box;
   width: 100%;
   height: 100%;
   font-size: 62.5%;
-  @font-face {
-    font-family: 'Fira';
-    src:  url('../assets/firacode-variablefont_wght-webfont.woff') format('woff'),
-          url('../assets/firacode-variablefont_wght-webfont.woff2') format('woff2');
-  }
+  
   
 }
 
