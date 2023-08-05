@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <title>404 &mdash; synackjack</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Slash Packaging is a directory of businesses that offer packaging sustainability information on their website at the URL /packaging">
+  
+
+  <link rel="canonical" href="http://localhost:4000/404.html" />
+  <link rel="stylesheet" href="/styles.css" />
+
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:site"        content="@synackjack" />
+  <meta name="twitter:creator"     content="@synackjack" />
+  <meta name="twitter:title"       content="404" />
+  <meta name="twitter:description" content="Slash Packaging is a directory of businesses that offer packaging sustainability information on their website at the URL /packaging">
+  <meta name="twitter:image"       content="http://localhost:4000/assets/cover.png" />
+
+  <meta property="og:site_name"    content="synackjack">
+  <meta property="og:url"          content="http://localhost:4000/404.html" />
+  <meta property="og:title"        content="404" />
+  <meta property="og:description"  content="Slash Packaging is a directory of businesses that offer packaging sustainability information on their website at the URL /packaging">
+  <meta property="og:type"         content="article">
+  <meta property="og:image"        content="http://localhost:4000/assets/cover.png" />
+
+  <script defer data-domain="" src="https://plausible.io/js/script.outbound-links.js"></script>
+  <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+
+</head>
+  <body>
+    <script>
+      if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.querySelector('body').classList.add('theme-dark')
+      }
+    </script>
+
+    <nav><div class="header flex align-center">
+  <span class="flex-grow">
+    <a class="internal-link plain" href="/"
+      >synackjack</a
+    >
+  </span>
+  <span class="flex-shrink ssr">
+    <a href="/til" class="muted plain">TIL</a>
+  </span>
+  <span class="flex-shrink ssr">
+    <a href="/about" class="muted plain">About</a>
+  </span>
+
+  <span id="theme-toggle" title="Toggle dark mode">
+    <div class="theme-toggle-slide"></div>
+    <div class="theme-toggle-switch"></div>
+  </span>
+</div>
+</nav>
+
+    <div class="wrapper">
+      <main><script>
+  plausible("404", { props: { path: document.location.pathname } });
+</script>
+<div>
+  <h1 style="max-width: 16em">Uhmmm...</h1>
+  <p></p>
+  Well darn, it looks like you've somehow ended up on a 404 page. Hopefully this
+  makes it a little better..
+  <p></p>
+  <small>Where does the king keep his armies....? In his sleevies.</small>
+  <p></p>
+  <small
+    >If it didn't help, here's a <a href="/dog" class="muted">dog</a>.</small
+  >
+</div>
+</main>
+      <footer><div class="wrap faint" style="display: flex; align-items: center;">
+  <a href="https://www.synackjack.co.uk" class="plain ssr"><img src="https://kepano.s3.amazonaws.com/avatar.jpeg" width="40px" height="40px" class="round" style="border-radius:50%; border:1.5px solid #dcc3ad;" /></a>
+  <a href="https://github.com/synackjack" class="muted ssr" target="_blank">GitHub</a>
+  <a href="https://twitter.com/synackjack" class="muted ssr" target="_blank">Twitter</a>
+</div></footer>
+    </div>
+
+    <script>
+    var darkMode = document.querySelector("#theme-toggle");
+
+    darkMode.addEventListener("click", function () {
+      document.body.classList.toggle("theme-dark");
+
+      let theme = "light";
+      if (document.body.classList.contains("theme-dark")) {
+        theme = "dark";
+      }
+      localStorage.setItem("theme", theme);
+    });
+    </script>
+
+    
+  </body>
+</html>

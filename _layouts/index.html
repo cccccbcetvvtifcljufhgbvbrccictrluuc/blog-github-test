@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+{% assign latestpost = site.posts.first %}
+<article class="bb">
+  <div style="max-width: 35em">
+    <h2>Latest</h2>
+    <h3>
+      <a href="{{ latestpost.url }}" class="internal-link h1"
+        >{{latestpost.title}}</a
+      ><br />
+    </h3>
+    <content> {{ latestpost.excerpt }} </content>
+  </div>
+</article>
+
+<article>
+  <h2>Topics</h2>
+  <div>
+    {% for tag in site.tags %}
+    <a href="/{{ site.tag_page_dir }}/{{ tag[0] }}/"
+      >{{ tag[0] | slugify: 'pretty'}}</a
+    >
+    {% endfor %}
+  </div>
+  <hr />
+</article>
+
+<article>
+  <h2>Posts</h2>
+  <div>
+    {% for post in site.posts %}
+    <a href="{{ post.url }}" class="internal-link plain">
+      <span class="muted small flex-shrink mh nowrap ppr"
+        >{{ post.published-date }}</span
+      >
+      <u>{{ post.title }}</u></a
+    ><br />
+    {% endfor %}
+  </div>
+  <hr />
+</article>
+<br />

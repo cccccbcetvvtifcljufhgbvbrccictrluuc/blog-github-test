@@ -1,0 +1,51 @@
+name:                Jack Munro
+title:               synackjack
+twitter:             synackjack
+# domain:              synackjack.co.uk
+url:                 http://127.0.0.1:4000
+include:             ['_pages']
+metadescription:     "Slash Packaging is a directory of businesses that offer packaging sustainability information on their website at the URL /packaging"
+
+# You may need to change the base URL depending on your deploy configuration.
+# Specifically, when using GitHub Pages, the baseurl should point to where GitHub
+# Pages deploys your repository (which is usually the repository name).
+baseurl:             ''
+
+# If you are using a host that cannot resolve URLs that do
+# not end with .html (such as Neocities), set this to 'true'.
+use_html_extension:  false
+
+# Set to `true` to open non-internal links in new tabs, or
+# set to `false` to open non-internal links in current tab.
+open_external_links_in_new_tab: true
+
+permalink:           pretty
+relative_permalinks: false
+
+plugins:
+  - jekyll-redirect-from
+
+highlighter: rouge
+
+fonts:
+  google_fonts: "https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600&display=swap"
+  heading: "Fira Code"
+  base: "Fira Code"
+  monospace: "Fira Code Mono"
+
+sass:
+  sass_dir:          _sass
+  style:            compressed
+
+defaults:
+  - scope:
+      path: "**/*"
+    values:
+      layout: "default"
+  - scope:
+      path: "_posts/**/*.md"
+    values:
+      layout: "page"
+
+tag_page_layout: "tag"
+tag_page_dir: "tag"

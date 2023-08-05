@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<article>
+  <div>
+    <h1>{{ page.title }}</h1>
+    <table class="sst" style="max-width: 35em">
+      <tr>
+        <td class="muted">Posted On:</td>
+        <td>{{ page.date | date: "%d/%m/%Y" }}</td>
+      </tr>
+      <tr>
+        <td class="muted">Reading Time:</td>
+        <td>{{ page.content | reading_time }}</td>
+      </tr>
+      {% if page.tags.size > 0 %}
+      <tr>
+        <td class="muted">Tags</td>
+        <td class="tags">
+          {% for tag in page.tags %}
+          <a
+            href="/{{ site.tag_page_dir }}/{{ tag | slugify: 'pretty' }}/"
+            class="tag"
+            >#{{ tag }}</a
+          >
+          {% endfor %}
+        </td>
+      </tr>
+      {% endif %}
+    </table>
+    <content> {{ content }} </content>
+  </div>
+</article>

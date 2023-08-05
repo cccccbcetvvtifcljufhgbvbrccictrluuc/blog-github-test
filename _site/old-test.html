@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <title>Old Post &mdash; synackjack</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Slash Packaging is a directory of businesses that offer packaging sustainability information on their website at the URL /packaging">
+  
+  <meta property="article:published_time" content="2023-06-14T00:00:00+01:00" />
+  <meta property="article:author"  content="http://localhost:4000/" />
+  
+
+  <link rel="canonical" href="http://localhost:4000/old-test" />
+  <link rel="stylesheet" href="/styles.css" />
+
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:site"        content="@synackjack" />
+  <meta name="twitter:creator"     content="@synackjack" />
+  <meta name="twitter:title"       content="Old Post" />
+  <meta name="twitter:description" content="Slash Packaging is a directory of businesses that offer packaging sustainability information on their website at the URL /packaging">
+  <meta name="twitter:image"       content="http://localhost:4000/assets/cover.png" />
+
+  <meta property="og:site_name"    content="synackjack">
+  <meta property="og:url"          content="http://localhost:4000/old-test" />
+  <meta property="og:title"        content="Old Post" />
+  <meta property="og:description"  content="Slash Packaging is a directory of businesses that offer packaging sustainability information on their website at the URL /packaging">
+  <meta property="og:type"         content="article">
+  <meta property="og:image"        content="http://localhost:4000/assets/cover.png" />
+
+  <script defer data-domain="" src="https://plausible.io/js/script.outbound-links.js"></script>
+  <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+
+</head>
+  <body>
+    <script>
+      if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.querySelector('body').classList.add('theme-dark')
+      }
+    </script>
+
+    <nav><div class="header flex align-center">
+  <span class="flex-grow">
+    <a class="internal-link plain" href="/"
+      >synackjack</a
+    >
+  </span>
+  <span class="flex-shrink ssr">
+    <a href="/til" class="muted plain">TIL</a>
+  </span>
+  <span class="flex-shrink ssr">
+    <a href="/about" class="muted plain">About</a>
+  </span>
+
+  <span id="theme-toggle" title="Toggle dark mode">
+    <div class="theme-toggle-slide"></div>
+    <div class="theme-toggle-switch"></div>
+  </span>
+</div>
+</nav>
+
+    <div class="wrapper">
+      <main><article>
+  <div>
+    <h1>Old Post</h1>
+    <table class="sst" style="max-width: 35em">
+      <tr>
+        <td class="muted">Posted On:</td>
+        <td>14/06/2023</td>
+      </tr>
+      <tr>
+        <td class="muted">Reading Time:</td>
+        <td>30 seconds</td>
+      </tr>
+      
+      <tr>
+        <td class="muted">Tags</td>
+        <td class="tags">
+          
+          <a
+            href="/tag/test/"
+            class="tag"
+            >#test</a
+          >
+          
+        </td>
+      </tr>
+      
+    </table>
+    <content> <p>This is a test latest post. <em>I have no idea if this well work</em> <strong>although I think it should</strong>. This a stor
+y about how my life got flipped turned upside down. Let me take a minute just sit right there, this is How I became the fresh prince of belair</p>
+ </content>
+  </div>
+</article>
+</main>
+      <footer><div class="wrap faint" style="display: flex; align-items: center;">
+  <a href="https://www.synackjack.co.uk" class="plain ssr"><img src="https://kepano.s3.amazonaws.com/avatar.jpeg" width="40px" height="40px" class="round" style="border-radius:50%; border:1.5px solid #dcc3ad;" /></a>
+  <a href="https://github.com/synackjack" class="muted ssr" target="_blank">GitHub</a>
+  <a href="https://twitter.com/synackjack" class="muted ssr" target="_blank">Twitter</a>
+</div></footer>
+    </div>
+
+    <script>
+    var darkMode = document.querySelector("#theme-toggle");
+
+    darkMode.addEventListener("click", function () {
+      document.body.classList.toggle("theme-dark");
+
+      let theme = "light";
+      if (document.body.classList.contains("theme-dark")) {
+        theme = "dark";
+      }
+      localStorage.setItem("theme", theme);
+    });
+    </script>
+
+    
+  </body>
+</html>
