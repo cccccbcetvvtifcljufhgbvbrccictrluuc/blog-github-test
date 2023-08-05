@@ -1,181 +1,181 @@
-.highlight table td { padding: 5px; max-width: var(--paragraph-max-width);font-family: var(--font-family);}
-.highlight table pre { margin: 0; max-width: var(--paragraph-max-width);font-family: var(--font-family);}
+.highlight table td { padding: 5px; max-width: var(--paragraph-max-width);font-family: var(--code-font-family);}
+.highlight table pre { margin: 0; max-width: var(--paragraph-max-width);font-family: var(--code-font-family);}
 .highlight, .highlight .w {
   color: #c9d1d9;
   background-color: #161b22;
   max-width: var(--paragraph-max-width);
-  font-family: var(--font-family);
+  font-family: var(--code-font-family);
 }
 .highlight .k, .highlight .kd, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kt, .highlight .kv {
   color: #ff7b72;
   max-width: var(--paragraph-max-width);
-  font-family: var(--font-family);
+  font-family: var(--code-font-family);
 }
 .highlight .gr {
   color: #f0f6fc;
   max-width: var(--paragraph-max-width);
-  font-family: var(--font-family);
+  font-family: var(--code-font-family);
 }
 .highlight .gd {
   color: #ffdcd7;
   background-color: #67060c;
   max-width: var(--paragraph-max-width);
-  font-family: var(--font-family);
+  font-family: var(--code-font-family);
 }
 .highlight .nb {
   color: #ffa657;
   max-width: var(--paragraph-max-width);
-  font-family: var(--font-family);
+  font-family: var(--code-font-family);
 }
 .highlight .nc {
   color: #ffa657;
   max-width: var(--paragraph-max-width);
-  font-family: var(--font-family);
+  font-family: var(--code-font-family);
 }
 .highlight .no {
   color: #ffa657;
   max-width: var(--paragraph-max-width);
-  font-family: var(--font-family);
+  font-family: var(--code-font-family);
 }
 .highlight .nn {
   color: #ffa657;
   max-width: var(--paragraph-max-width);
-  font-family: var(--font-family);
+  font-family: var(--code-font-family);
 }
 .highlight .sr {
   color: #7ee787;
   max-width: var(--paragraph-max-width);
-  font-family: var(--font-family);
+  font-family: var(--code-font-family);
 }
 .highlight .na {
   color: #7ee787;
   max-width: var(--paragraph-max-width);
-  font-family: var(--font-family);
+  font-family: var(--code-font-family);
 }
 .highlight .nt {
   color: #7ee787;
   max-width: var(--paragraph-max-width);
-  font-family: var(--font-family);
+  font-family: var(--code-font-family);
 }
 .highlight .gi {
   color: #aff5b4;
   background-color: #033a16;
   max-width: var(--paragraph-max-width);
-  font-family: var(--font-family);
+  font-family: var(--code-font-family);
 }
 .highlight .kc {
   color: #79c0ff;
   max-width: var(--paragraph-max-width);
-  font-family: var(--font-family);
+  font-family: var(--code-font-family);
 }
 .highlight .l, .highlight .ld, .highlight .m, .highlight .mb, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .il, .highlight .mo, .highlight .mx {
   color: #79c0ff;
   max-width: var(--paragraph-max-width);
-  font-family: var(--font-family);
+  font-family: var(--code-font-family);
 }
 .highlight .sb {
   color: #79c0ff;
   max-width: var(--paragraph-max-width);
-  font-family: var(--font-family);
+  font-family: var(--code-font-family);
 }
 .highlight .bp {
   color: #79c0ff;
   max-width: var(--paragraph-max-width);
-  font-family: var(--font-family);
+  font-family: var(--code-font-family);
 }
 .highlight .ne {
   color: #79c0ff;
   max-width: var(--paragraph-max-width);
-  font-family: var(--font-family);
+  font-family: var(--code-font-family);
 }
 .highlight .nl {
   color: #79c0ff;
   max-width: var(--paragraph-max-width);
-  font-family: var(--font-family);
+  font-family: var(--code-font-family);
 }
 .highlight .py {
   color: #79c0ff;
   max-width: var(--paragraph-max-width);
-  font-family: var(--font-family);
+  font-family: var(--code-font-family);
 }
 .highlight .nv, .highlight .vc, .highlight .vg, .highlight .vi, .highlight .vm {
   color: #79c0ff;
   max-width: var(--paragraph-max-width);
-  font-family: var(--font-family);
+  font-family: var(--code-font-family);
 }
 .highlight .o, .highlight .ow {
   color: #79c0ff;
   max-width: var(--paragraph-max-width);
-  font-family: var(--font-family);
+  font-family: var(--code-font-family);
 }
 .highlight .gh {
   color: #1f6feb;
   font-weight: bold;
   max-width: var(--paragraph-max-width);
-  font-family: var(--font-family);
+  font-family: var(--code-font-family);
 }
 .highlight .gu {
   color: #1f6feb;
   font-weight: bold;
   max-width: var(--paragraph-max-width);
-  font-family: var(--font-family);
+  font-family: var(--code-font-family);
 }
 .highlight .s, .highlight .sa, .highlight .sc, .highlight .dl, .highlight .sd, .highlight .s2, .highlight .se, .highlight .sh, .highlight .sx, .highlight .s1, .highlight .ss {
   color: #a5d6ff;
   max-width: var(--paragraph-max-width);
-  font-family: var(--font-family);
+  font-family: var(--code-font-family);
 }
 .highlight .nd {
   color: #d2a8ff;
   max-width: var(--paragraph-max-width);
-  font-family: var(--font-family);
+  font-family: var(--code-font-family);
 }
 .highlight .nf, .highlight .fm {
   color: #d2a8ff;
   max-width: var(--paragraph-max-width);
-  font-family: var(--font-family);
+  font-family: var(--code-font-family);
 }
 .highlight .err {
   color: #f0f6fc;
   background-color: #8e1519;
   max-width: var(--paragraph-max-width);
-  font-family: var(--font-family);
+  font-family: var(--code-font-family);
 }
 .highlight .c, .highlight .ch, .highlight .cd, .highlight .cm, .highlight .cp, .highlight .cpf, .highlight .c1, .highlight .cs {
   color: #8b949e;
   max-width: var(--paragraph-max-width);
-  font-family: var(--font-family);
+  font-family: var(--code-font-family);
 }
 .highlight .gl {
   color: #8b949e;
   max-width: var(--paragraph-max-width);
-  font-family: var(--font-family);
+  font-family: var(--code-font-family);
 }
 .highlight .gt {
   color: #8b949e;
   max-width: var(--paragraph-max-width);
-  font-family: var(--font-family);
+  font-family: var(--code-font-family);
 }
 .highlight .ni {
   color: #c9d1d9;
   max-width: var(--paragraph-max-width);
-  font-family: var(--font-family);
+  font-family: var(--code-font-family);
 }
 .highlight .si {
   color: #c9d1d9;
   max-width: var(--paragraph-max-width);
-  font-family: var(--font-family);
+  font-family: var(--code-font-family);
 }
 .highlight .ge {
   color: #c9d1d9;
   font-style: italic;
   max-width: var(--paragraph-max-width);
-  font-family: var(--font-family);
+  font-family: var(--code-font-family);
 }
 
 .highlight .gs {
   color: #c9d1d9;
   font-weight: bold;
   max-width: var(--paragraph-max-width);
-  font-family: var(--font-family);
+  font-family: var(--code-font-family);
 }
